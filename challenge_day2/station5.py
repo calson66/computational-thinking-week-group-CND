@@ -10,7 +10,7 @@ file_path = r'D:\UvA-DE\Semester_3\computational-thinking-week-group-CND\challen
 # Read the CSV file
 data = pd.read_csv(file_path)
 
-def get_learning_team(first_name):
+def solution_station_5(first_name):
     row = data[data['First Name'].str.lower() == first_name.lower()]
     
     if not row.empty:
