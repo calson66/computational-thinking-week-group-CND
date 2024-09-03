@@ -1,2 +1,2 @@
-def name():
+def get_name():
     return "Calson"
